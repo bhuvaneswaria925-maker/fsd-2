@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
     origin: [
-        "https://full-stack-development-3gr1d4cuf-csp-ddd1.vercel.app"
+        "https://fsd-2-sgv1.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"]
