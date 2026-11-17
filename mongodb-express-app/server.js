@@ -1,7 +1,7 @@
 import express from "express";
 import {MongoClient ,ObjectId} from "mongodb";
 
-const MONGO_URL = "mongodb+srv://deepikaarugalla_db_user:CTwGuWP9yQWmDb3p@cluster0.wvbmzxj.mongodb.net"; //connecting to mongodb server
+const MONGO_URL = "mongodb+srv://ashasingampalli26_db_user:fG1SOR4ZPwuzqmeC@cluster0.5aimwp4.mongodb.net"; //connecting to mongodb server
 const dbName = "booksDB";
 
 const client = new MongoClient(MONGO_URL);
